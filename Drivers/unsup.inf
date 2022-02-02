@@ -1,0 +1,24 @@
+[Version]
+Signature="$Windows NT$"
+Class=PCMCIA
+ClassGUID={4d36e977-e325-11ce-bfc1-08002be10318}
+
+[Manufacturer]
+%TI%=TI
+
+[TI]
+%PCI\VEN_104C&DEV_AC1C.DeviceDesc%=TICARDBUS, PCI\VEN_104C&DEV_AC1C
+
+[TICARDBUS]
+
+[TICARDBUS.LogConfigOverride]
+LogConfig=TiCardBusLogConfigOverride
+
+[TiCardBusLogConfigOverride]
+IRQConfig=9,10,11,12,13,14,15
+MemConfig=1000@10000000-FFFFFFFF%FFFFE000(D)
+ConfigPriority=NORMAL
+
+[Strings]
+TI="Texas Instruments"
+PCI\VEN_104C&DEV_AC1C.DeviceDesc="Unsupported Device"

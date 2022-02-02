@@ -1,0 +1,92 @@
+               ASILIANT END USER SOFTWARE LICENSE AGREEMENT 
+ 
+BY UNZIPPING THIS FILE, YOU ARE AGREEING TO BE BOUND BY THE TERMS OF 
+THIS AGREEMENT.  DO NOT UNZIP THIS FILE UNTIL YOU HAVE CAREFULLY READ 
+AND AGREED TO THE FOLLOWING TERMS AND CONDITIONS.  IF YOU DO NOT AGREE 
+TO THE TERMS OF THIS AGREEMENT, PROMPTLY DELETE THIS FILE. 
+ 
+                   IF YOU UNZIP THIS FILE, YOU WILL 
+                BE BOUND BY THE TERMS OF THIS AGREEMENT 
+ 
+License: Asiliant grants you the right to use the enclosed program (the 
+"Software").  You will not use, copy, modify, rent, sell, or transfer 
+the Software or any portion thereof except as provided for in this 
+Agreement. 
+ 
+You may:  
+1 Use the Software on a single computer;  
+2 Copy the Software solely for backup or archival purposes. 
+ 
+RESTRICTIONS: 
+ 
+You WILL NOT: 
+1  Use the Software or cause the Software to be used on more than one 
+   computer at the same time, including using the Software across a 
+   network system; 
+2  Sublicense the Software; 
+3  Reverse engineer, decompile, or disassemble the Software; 
+4  Copy the software except as provided in this Agreement;' 
+5  Permit simultaneous use of the Software by more than one user. 
+ 
+TRANSFER: You may transfer the Software to another party if the 
+receiving party agrees to the terms of this Agreement and you retain no 
+copies of the Software and accompanying documentation. 
+ 
+Transfer of the license terminates your right to use the Software. 
+ 
+OWNERSHIP AND COPYRIGHT OF SOFTWARE: Title to the Software and all 
+copies thereof remain with Asiliant or its vendors.  The Software is 
+copyrighted and is protected by United States copyright laws and 
+international treaty provisions.  You will not remove the copyright 
+notice from the Software.  You agree to prevent any unauthorized 
+copying of the Software. 
+ 
+WARRANTY: Asiliant warrants that it has the right to license you to use 
+the software. 
+ 
+Asiliant warrants that the media on which the Software is furnished will 
+be free from defects in material and workmanship under normal use for a 
+period of ninety (90) days from the date of purchase.  Asiliant's entire 
+liability and your exclusive remedy shall be the replacement of the 
+Software if the media on which the Software is furnished proves to be 
+defective.  This warranty is void if the media defect has resulted from 
+accident, abuse, or misapplication.  Any replacement of media will be 
+warranted for the remainder of the original warranty period or thirty 
+(30) days, whichever is longer. 
+ 
+DISCLAIMER: Except as provided above, the Software is provided "AS IS" 
+without warranty of any kind. 
+ 
+LIMITATION OF LIABILITY: THE ABOVE WARRANTIES ARE THE ONLY WARRANTIES 
+OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF 
+MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE.  NEITHER ASILIANT 
+NOR ITS VENDORS SHALL BE LIABLE FOR ANY LOSS OF PROFITS, LOSS OF USE, 
+INTERRUPTION OF BUSINESS, NOR FOR INDIRECT, SPECIAL, INCIDENTAL, OR 
+CONSEQUENTIAL DAMAGES OF ANY KIND WHETHER UNDER THIS AGREEMENT OR 
+OTHERWISE. 
+ 
+AUDIT: Asiliant reserves the right to conduct or have conducted audits to 
+verify your compliance with this Agreement. 
+ 
+TERMINATION OF THIS LICENSE: Asiliant may terminate this license at any 
+time if you are in breach of any of its terms or conditions.  Upon 
+termination, you will immediately destroy the Software or return all 
+copies of the Software to Asiliant along with any copies you have made. 
+ 
+U.S.  GOVERNMENT RESTRICTED RIGHTS: The Software and documentation are 
+provided with "RESTRICTED RIGHTS." Use, duplication, or disclosure by 
+the Government is subject to restrictions as set forth in FAR54-227-14 
+and DFAR252-227-7013 et seq or its successor.  Use of this Software by 
+the Government constitutes acknowledgment of Asiliant's proprietary rights 
+in the Software. 
+ 
+EXPORT LAWS: You agree that neither the Software nor the direct product 
+thereof is intended to be shipped either directly or indirectly to 
+country groups Q, S, W, Y, Z, Afghanistan or the People's Republic of 
+China, unless a validated export license is obtained from the U.S. 
+Department of Commerce. 
+ 
+APPLICABLE LAWS: This Agreement is governed by the laws of the state of 
+California and the United States, including patent and copyright laws. 
+Any claim arising out of this Agreement will be brought in Santa Clara, 
+California. 

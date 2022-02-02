@@ -1,0 +1,50 @@
+     Windows 2000 -- Asiliant Driver Installation Procedure
+                     for Chips And Technologies hardware.
+   --------------------------------------------------------------------------  
+
+
+        Click the "Start" button, then select the "Settings" tab and click on
+        "Control Panel".
+	
+        Click on the "Display" icon to start the Display Properties window.
+	
+	Click on the "Settings" tab, and then click on "Advanced..." button.
+
+        Select the "Adapter" tab, then the "Properties" button found there.
+
+        Select the "Driver" tab, then the "Update Driver..." button.
+
+        Select the radio button that begins "Display a list of the known..."
+        and press the "Next" button.
+
+        Click the "Have Disk..." button and select the location of the
+        driver files.
+
+        Make a selection from the list provided, and click "Next".
+
+        You may need to shutdown and reboot the system for the changes to
+        take effect.
+
+	When the system has restarted, the default graphics mode ( usually
+	640x480x256color ) has been automatically selected. 
+
+
+
+To change the display resolution and/or colors...
+-------------------------------------------------
+        Click the Start button, then go to Settings and click on Control Panel.
+	
+        Click on the Display icon to start the Display Properties window. 
+	
+	Click on the Settings tab.
+	
+	A new screen setting can be selected using either of the following
+        methods:
+
+          1:  Use the slide-bar in the Desktop Area to select new setting.
+	    
+	  2:  Click on List All Modes. From the list provided, select a new  
+	      setting, then click OK or press enter.
+	      
+	      
+        Click the Apply button to make changes.
