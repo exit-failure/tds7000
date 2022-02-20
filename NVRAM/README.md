@@ -33,13 +33,18 @@ Since the Power modules from Dallas aren't available any more I modified the exi
 
 ### 2. Connect the scope to the serial interface:
 
-You can use a standard 10-pin IDC to DB9 adapter. ___Notice that there are two types that are wired up differently.___ The one that is required here is the older style (DTK/INTEL style). The new style (AT/EVEREX style) is not suitable for our task.  If you are using such an adapter, please make sure that the pinout matches the one in the table below.  If you do not have an adapter at hand connect, just use a couple of jumper wires. This works just as well. You should only have to connect the following lines:
+You can use a standard 10-pin IDC to DB9 adapter. ___Notice that there are two types that are wired up differently.___ The one that is required here is the older style (DTK/INTEL style). The new style (AT/EVEREX style) is not suitable for our task.  If you are using such an adapter, please make sure that the pinout matches the one in the table below.  If you do not have an adapter at hand connect, just use a couple of jumper wires. This works just as well. The absolue minimum of lines you'd have to connect are __`RX`__, __`TX`__ and __`GND`__.
 
 #### The Pinout of the scope is as follows
 
-<img src="pinout_tds7000.jpg" height="300" />
+male IDC connector on a TDS7104:
+<img src="pinout_tds7000.jpg" height="300" /><br>
 
-| PIN TDS7000 (10 pin IDC )|signal|description |
+female IDC connector on a IDC-serial adapter:
+<img src="IDC_female.jpg" height="300" /><br>
+
+
+| 10 pin IDC (TDS7000/adapter)|signal|description |
 |--|--|--|
 |1|DCD|Data Carrier Detect|
 |2|DSR|Data Set Ready|
@@ -117,4 +122,4 @@ When you're done send an `@` to continue booting the scope when the scope softwa
 
 ## Troubleshooting
 
-* If you have trouble using the menu properly because the menu always seems to skip every other option, try chaning the line break characters, your terminal software sends after pressing enter. If it is set to send `\r` (carriage return) __AND__ `\n` (line feed) try instead using __only one__ or the other.
+* If you have trouble using the menu properly because the menu always seems to skip every other option, try chaning the line break characters, your terminal software sends after pressing enter. If it is set to send __`\r`__ (carriage return) __AND__ __`\n`__ (line feed) try instead using ___only one or the other___.
