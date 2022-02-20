@@ -1,4 +1,4 @@
-# Replacing the Backup Battery and Restoring NVRAM Settings when the Battery has run empty
+# Replacing the Backup Battery and restoring NVRAM Settings when the Battery has run empty
 
 ## Replacing the Battery
 
@@ -86,14 +86,14 @@ The required settings for the serial interface are:
 |parity|none|
 |flow control|no|
 
-* Please note that you reinstall the upper main board again. Otherwise the scope will not turn on.
+* Please note that you need to reinstall the upper main board again. Otherwise the scope will not turn on.
 * Start your terminal software and connect to the serial port. After that start your scope.
 * When the countdown appears send any character to interrupt the startup process.
 * Send `?` to display the main menu.
 
 ### 4. Set the settings to their proper values:
 
-In the main menu press `c` to get into the configuration dialog.
+In the main menu send `c` to get into the configuration dialog.
 The following table shows the right settings for a TDS7104 other models may require other settings but I would expect them to be the same.
 
 | setting name | value |
