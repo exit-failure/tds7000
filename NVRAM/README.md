@@ -8,13 +8,11 @@ Since the Power modules from Dallas aren't available any more I modified the exi
 
 1. Remove the PowerCap module from the NVRAM:  
 
-   <img src="powercap_1.jpg" width="400" />
+   <img src="powercap_1.jpg" height="400" />
 
    Push a small screwdriver into the slit on the side of the PowerCap module and lever it off. You do __not__ need a lot of froce for that.  
 
-   <img src="powercap_1_5.jpg" width="400" />
-
-   <img src="powercap_2.jpg" width="400" />
+   <img src="powercap_1_5.jpg" height="400" /> <img src="powercap_2.jpg" height="400" />
 
 2. Remove the old battery:  
    The tabs are spot welded to the button cell. In my case they felt like they were very firmly attached to the battery I just drilled out the spot welds with a 1mm tungsten carbide drill bit and a dremel. After that I was able to take out the battery.
@@ -23,11 +21,11 @@ Since the Power modules from Dallas aren't available any more I modified the exi
 3. Attaching a battery holder to the PowerCap module:  
    I glued a CR2032 holder to the top of the module and solder wires between the battery holder and the PCB on the underside. I had to cut small slits into the sides of the plastic housing to be able to route the wires properly. Otherwise the module won't clip back onto the NVRAM.  
 
-   <img src="powercap_4.jpg" width="400" /><img src="powercap_5.jpg" width="400" />
+   <img src="powercap_4.jpg" height="400" /> <img src="powercap_5.jpg" height="400" />
 
 4. Put the Power module back on top of the NVRAM:  
 
-   <img src="powercap_6.jpg" width="400" />
+   <img src="powercap_6.jpg" height="400" />
 
 ## Restore NVRAM Settings
 
@@ -39,7 +37,7 @@ You can use a standard 10-pin IDC to DB9 adapter. ___Notice that there are two t
 
 #### The Pinout of the scope is as follows
 
-<img src="pinout_tds7000.jpg" width="600" />
+<img src="pinout_tds7000.jpg" height="300" />
 
 | PIN TDS7000 (10 pin IDC )|signal|description |
 |--|--|--|
@@ -56,7 +54,7 @@ You can use a standard 10-pin IDC to DB9 adapter. ___Notice that there are two t
 
 #### The pinout of a standard female serial port (the type you find on a PC) is as follows
 
-<img src="pinout_serial.jpg" width="600" />
+<img src="pinout_serial.jpg" height="300" />
 
 |PIN female DB9 (serial)|signal|
 | -- | -- |
