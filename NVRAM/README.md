@@ -6,10 +6,14 @@ TODO: Insert Photos
 
 Since the Power modules from Dallas aren't available any more I modified the existing one for easier battery replcement in the future.
 
-1. Remove the PowerCap module from the NVRAM:
+1. Remove the PowerCap module from the NVRAM:  
+
    <img src="powercap_1.jpg" width="400" />
-   Push a small screwdriver into the slit on the side of the PowerCap module and lever it off. You do __not__ need a lot of froce for that.
+
+   Push a small screwdriver into the slit on the side of the PowerCap module and lever it off. You do __not__ need a lot of froce for that.  
+
    <img src="powercap_1_5.jpg" width="400" />
+
    <img src="powercap_2.jpg" width="400" />
 
 2. Remove the old battery:  
@@ -17,10 +21,12 @@ Since the Power modules from Dallas aren't available any more I modified the exi
    <img src="powercap_3.jpg" width="400" />
 
 3. Attaching a battery holder to the PowerCap module:  
-   I glued a CR2032 holder to the top of the module and solder wires between the battery holder and the PCB on the underside. I had to cut small slits into the sides of the plastic housing to be able to route the wires properly. Otherwise the module won't clip back onto the NVRAM.
+   I glued a CR2032 holder to the top of the module and solder wires between the battery holder and the PCB on the underside. I had to cut small slits into the sides of the plastic housing to be able to route the wires properly. Otherwise the module won't clip back onto the NVRAM.  
+
    <img src="powercap_4.jpg" width="400" /><img src="powercap_5.jpg" width="400" />
 
-4. Put the Power module back on top of the NVRAM:
+4. Put the Power module back on top of the NVRAM:  
+
    <img src="powercap_6.jpg" width="400" />
 
 ## Restore NVRAM Settings
