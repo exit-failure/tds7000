@@ -6,7 +6,7 @@ TODO: Insert Photos
 
 Since the Power modules from Dallas aren't available any more I modified the existing one for easier battery replcement in the future.
 
-1. Remove the PowerCap module from the NVRAM:  
+1. Removing the PowerCap module from the NVRAM:  
 
    <img src="powercap_1.jpg" height="400" />
 
@@ -14,7 +14,7 @@ Since the Power modules from Dallas aren't available any more I modified the exi
 
    <img src="powercap_1_5.jpg" height="400" /> <img src="powercap_2.jpg" height="400" />
 
-2. Remove the old battery:  
+2. Removing the old battery:  
    The tabs are spot welded to the button cell. In my case they felt like they were very firmly attached to the battery I just drilled out the spot welds with a 1mm tungsten carbide drill bit and a dremel. After that I was able to take out the battery.
 
    <img src="powercap_3.jpg" width="400" />
@@ -24,7 +24,8 @@ Since the Power modules from Dallas aren't available any more I modified the exi
 
    <img src="powercap_4.jpg" height="400" /> <img src="powercap_5.jpg" height="400" />
 
-4. Put the Power module back on top of the NVRAM:  
+4. Puting the Power module back on top of the NVRAM:
+   Just hook the module onto the NVRAM chip on the oppsite side of the slit and push it down until it latches. Be careful to not bend the contacts in the wrong direction.  
 
    <img src="powercap_6.jpg" height="400" />
 
