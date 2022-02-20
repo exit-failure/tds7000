@@ -2,48 +2,46 @@
 
 ## Replacing the Battery
 
-TODO: Insert Photos
-
 Since the Power modules from Dallas aren't available any more I modified the existing one for easier battery replcement in the future.
 
 1. Removing the PowerCap module from the NVRAM:  
 
-   <img src="powercap_1.jpg" height="400" />
+   <img src="img/powercap_1.jpg" height="400" />
 
    Push a small screwdriver into the slit on the side of the PowerCap module and lever it off. You do __not__ need a lot of froce for that.  
 
-   <img src="powercap_1_5.jpg" height="400" /> <img src="powercap_2.jpg" height="400" />
+   <img src="img/powercap_1_5.jpg" height="400" /> <img src="img/powercap_2.jpg" height="400" />
 
 2. Removing the old battery:  
    The tabs are spot welded to the button cell. In my case they felt like they were very firmly attached to the battery I just drilled out the spot welds with a 1mm tungsten carbide drill bit and a dremel. After that I was able to take out the battery.
 
-   <img src="powercap_3.jpg" width="400" />
+   <img src="img/powercap_3.jpg" width="400" />
 
 3. Attaching a battery holder to the PowerCap module:  
    I glued a CR2032 holder to the top of the module and solder wires between the battery holder and the PCB on the underside. I had to cut small slits into the sides of the plastic housing to be able to route the wires properly. Otherwise the module won't clip back onto the NVRAM.  
 
-   <img src="powercap_4.jpg" height="400" /> <img src="powercap_5.jpg" height="400" />
+   <img src="img/powercap_4.jpg" height="400" /> <img src="img/powercap_5.jpg" height="400" />
 
-4. Puting the Power module back on top of the NVRAM:
+4. Putting the Power module back on top of the NVRAM:  
    Just hook the module onto the NVRAM chip on the oppsite side of the slit and push it down until it latches. Be careful to not bend the contacts in the wrong direction.  
 
-   <img src="powercap_6.jpg" height="400" />
+   <img src="img/powercap_6.jpg" height="400" />
 
 ## Restore NVRAM Settings
 
 ### 1. Get yourself a PC with a serial interface ot a USB to serial interface
 
-### 2. Connect the scope to the serial interface:
+### 2. Connect the scope to the serial interface
 
-You can use a standard 10-pin IDC to DB9 adapter. ___Notice that there are two types that are wired up differently.___ The one that is required here is the older style (DTK/INTEL style). The new style (AT/EVEREX style) is not suitable for our task.  If you are using such an adapter, please make sure that the pinout matches the one in the table below.  If you do not have an adapter at hand connect, just use a couple of jumper wires. This works just as well. The absolue minimum of lines you'd have to connect are __`RX`__, __`TX`__ and __`GND`__.
+You can use a standard 10-pin IDC to DB9 adapter. __Notice that there are two types that are wired up differently.__ The one that is required here is the older style (DTK/INTEL style). The new style (AT/EVEREX style) is not suitable for our task.  If you are using such an adapter, please make sure that the pinout matches the one in the table below.  If you do not have an adapter at hand connect, just use a couple of jumper wires. This works just as well. The absolue minimum of lines you'd have to connect are __`RX`__, __`TX`__ and __`GND`__.
 
-#### The Pinout of the scope is as follows
+#### The Pinout of the IDC connector is as follows
 
 male IDC connector on a TDS7104:  
-<img src="pinout_tds7000.jpg" height="300" /><br>
+<img src="img/pinout_tds7000.jpg" height="300" /><br>
 
 female IDC connector on a IDC-serial adapter:  
-<img src="IDC_female.jpg" height="300" /><br>
+<img src="img/IDC_female.jpg" height="300" /><br>
 
 
 | 10 pin IDC (TDS7000/adapter)|signal|description |
@@ -61,7 +59,7 @@ female IDC connector on a IDC-serial adapter:
 
 #### The pinout of a standard female serial port (the type you find on a PC) is as follows
 
-<img src="pinout_serial.jpg" height="300" />
+<img src="img/pinout_serial.jpg" height="300" />
 
 |PIN female DB9 (serial)|signal|
 | -- | -- |
