@@ -16,6 +16,7 @@ Since the Power modules from Dallas aren't available any more I modified the exi
 
 2. Remove the old battery:  
    The tabs are spot welded to the button cell. In my case they felt like they were very firmly attached to the battery I just drilled out the spot welds with a 1mm tungsten carbide drill bit and a dremel. After that I was able to take out the battery.
+
    <img src="powercap_3.jpg" width="400" />
 
 3. Attaching a battery holder to the PowerCap module:  
@@ -37,10 +38,10 @@ You can use a standard 10-pin IDC to DB9 adapter. ___Notice that there are two t
 
 #### The Pinout of the scope is as follows
 
-male IDC connector on a TDS7104:
+male IDC connector on a TDS7104:  
 <img src="pinout_tds7000.jpg" height="300" /><br>
 
-female IDC connector on a IDC-serial adapter:
+female IDC connector on a IDC-serial adapter:  
 <img src="IDC_female.jpg" height="300" /><br>
 
 
