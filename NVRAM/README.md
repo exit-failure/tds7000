@@ -6,14 +6,22 @@ TODO: Insert Photos
 
 Since the Power modules from Dallas aren't available any more I modified the existing one for easier battery replcement in the future.
 
-1. Remove the Power module from the NVRAM:
+1. Remove the PowerCap module from the NVRAM:
+   <img src="powercap_1.jpg" width="400" />
+   Push a small screwdriver into the slit on the side of the PowerCap module and lever it off. You do __not__ need a lot of froce for that.
+   <img src="powercap_1_5.jpg" width="400" />
+   <img src="powercap_2.jpg" width="400" />
 
 2. Remove the old battery:  
-   The tabs are spot welded to the button cell. In my case they felt like they were very firmly attached to the battery I just drilled out the spot welds with a 1mm drill bit and a dremel. After that I was able to take out the battery.
+   The tabs are spot welded to the button cell. In my case they felt like they were very firmly attached to the battery I just drilled out the spot welds with a 1mm tungsten carbide drill bit and a dremel. After that I was able to take out the battery.
+   <img src="powercap_3.jpg" width="400" />
 
-3. Attaching a battery holder the the Power module:
+3. Attaching a battery holder to the PowerCap module:  
+   I glued a CR2032 holder to the top of the module and solder wires between the battery holder and the PCB on the underside. I had to cut small slits into the sides of the plastic housing to be able to route the wires properly. Otherwise the module won't clip back onto the NVRAM.
+   <img src="powercap_4.jpg" width="400" /><img src="powercap_5.jpg" width="400" />
 
 4. Put the Power module back on top of the NVRAM:
+   <img src="powercap_6.jpg" width="400" />
 
 ## Restore NVRAM Settings
 
@@ -21,43 +29,45 @@ Since the Power modules from Dallas aren't available any more I modified the exi
 
 ### 2. Connect the scope to the serial interface:
 
-You can use a standard 10-pin IDC to DB9 adapter. If you do not have one at hand connect the TODO: pins.
+You can use a standard 10-pin IDC to DB9 adapter. ___Notice that there are two types that are wired up differently.___ The one that is required here is the older style (DTK/INTEL style). The new style (AT/EVEREX style) is not suitable for our task.  If you are using such an adapter, please make sure that the pinout matches the one in the table below.  If you do not have an adapter at hand connect, just use a couple of jumper wires. This works just as well. You should only have to connect the following lines:
 
-The Pinout of the scope is as follows:
+#### The Pinout of the scope is as follows
 
-TODO: Insert Images
+<img src="pinout_tds7000.jpg" width="600" />
 
-| PIN TDS7104 | description |
+| PIN TDS7000 (10 pin IDC )|signal|description |
+|--|--|--|
+|1|DCD|Data Carrier Detect|
+|2|DSR|Data Set Ready|
+|3|RX|Receive Data|
+|4|RTS|Request to Send|
+|5|TX|Transmit Data|
+|6|CTS|Clear to Send|
+|7|DTR|Data Terminal Ready|
+|8|RI|Ring Indicator|
+|9|GND|System Ground|
+|10|not connected|---|
+
+#### The pinout of a standard female serial port (the type you find on a PC) is as follows
+
+<img src="pinout_serial.jpg" width="600" />
+
+|PIN female DB9 (serial)|signal|
 | -- | -- |
 |1|DCD|
-|2||
-|3||
-|4||
-|5||
-|6||
-|7||
-|8||
-|9||
-|10||
-
-The pinout of a standard female serial port (the type you find on a PC) is as follows:
-
-PIN female DB9 connector | description |
-| -- | -- |
-|1||
-|2||
-|3||
-|4||
-|5||
-|6||
-|7||
-|8||
-|9||
+|2|RX|
+|3|TX|
+|4|DTR|
+|5|GND|
+|6|DSR|
+|7|RTS|
+|8|CTS|
+|9|RI|
 
 ### 3. Connect to the serial interface with a terminal software of your liking.  
 
 * I used [Tera Term](https://osdn.net/projects/ttssh2/releases/). Tera Term should come with the correct serial port settiongs out of the box. If you want to check, you can find the seetings under `Setup` -> `Serial Port...`.  
-* For Linux I ofen use [CuteCom](http://cutecom.sourceforge.net/) if I want something with a graphical user interface.
+* For Linux I often use [CuteCom](http://cutecom.sourceforge.net/) if I want something with a graphical user interface.
 *  I usually use [HTerm](https://www.der-hammer.info/ages/terminal.html) but for some reason the communication didn't work properly after sending a random character to interrupt the boot process.  
 
 The required settings for the serial interface are:
