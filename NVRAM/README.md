@@ -25,7 +25,7 @@ Since the Power modules from Dallas aren't available any more I modified the exi
 
 ### 3. Attaching a battery holder to the PowerCap module
 
-   I glued a CR2032 holder to the top of the module and solder wires between the battery holder and the PCB on the underside. I had to cut small slits into the sides of the plastic housing to be able to route the wires properly. Otherwise the module won't clip back onto the NVRAM. I also used some tape to insulate the old battery tabs in order to avoid short circuits.
+   I glued a CR2032 holder to the top of the module and soldered wires between the battery holder and the PCB on the underside. I had to cut small slits into the sides of the plastic housing to be able to route the wires properly. Otherwise the module won't clip back onto the NVRAM. I also used some tape to insulate the old battery tabs in order to avoid short circuits.
 
    <img src="img/powercap_4.jpg" height="400" /> <img src="img/powercap_5.jpg" height="400" />
 
@@ -97,10 +97,11 @@ The required settings for the serial interface are:
 |parity|none|
 |flow control|no|
 
-* Please note that you need to reinstall the upper main board again. Otherwise the scope will not turn on.
-* Start your terminal software and connect to the serial port. After that start your scope.
-* When the countdown appears send any character to interrupt the startup process.
-* Send `?` to display the main menu.
+#### Please note that you need to reinstall the upper main board again. Otherwise the scope will not turn on.
+
+1. Start your terminal software and connect to the serial port. After that start your scope.
+2. When the countdown appears send any character to interrupt the startup process.
+3. Send `?` to display the main menu.
 
 ### 4. Set the settings to their proper values:
 
