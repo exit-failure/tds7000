@@ -1,5 +1,8 @@
 # Tektronix TDS7000/CSA7000
-Various guides and files for maintaining and repairing the Tektronix TDS7000/CSA7000 oscilloscope series
+Various guides and files for maintaining and repairing the Tektronix TDS7000/CSA7000 oscilloscope series 
+There's still a lot to do and I will be added bits and pieces from time to time when I find a minute or. 
+
+You are very welcome to contibute by eiter creating pull of feature requests or simpy sending me messages.  
 
 ## Replacing the Backup Battery and restoring NVRAM Settings
 
