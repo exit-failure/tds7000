@@ -4,9 +4,8 @@
 
 There's still a lot to do and I will be adding bits and pieces from time to time when I find a minute or two. 
 
-```diff
-+ You are very welcome to contribute by either creating pull or feature requests or simpy sending me messages.  
-```
+## You are very welcome to contribute by either creating pull or feature requests or simpy sending me messages.  
+
 ## Replacing the Backup Battery and restoring NVRAM Settings
 
 If your scope is stuck on the splash screen of the TekScope application (see screenshot below), the most likely reason is that the memory contents of the NVRAM have been erased. Usually this is the case when the backup battery of said NVRAM located on the  the PowerPC Board (the lower of the two motherboards) has been depleted. This means that you have to replace the battery and restore the NVRAM setting. 
