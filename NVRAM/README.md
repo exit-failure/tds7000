@@ -85,7 +85,7 @@ female IDC connector on a IDC-serial adapter:
 
 ### 3. Connect to the serial interface with a terminal software of your liking.  
 
-* I used [Tera Term](https://osdn.net/projects/ttssh2/releases/). Tera Term should come with the correct serial port settings out of the box. If you want to check, you can find the settings under `Setup` -> `Serial Port...`.  
+* I used [Tera Term](https://teratermproject.github.io/index-en.html). Tera Term should come with the correct serial port settings out of the box. If you want to check, you can find the settings under `Setup` -> `Serial Port...`.  
 * For Linux I often use [CuteCom](http://cutecom.sourceforge.net/) if I want something with a graphical user interface.
 *  I usually use [HTerm](https://www.der-hammer.info/ages/terminal.html) but for some reason the communication didn't work properly after sending a random character to interrupt the boot process.  
 
