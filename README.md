@@ -15,5 +15,6 @@ I've compiled a tutorial on how to do that here: [Replacing the Backup Battery a
 <img src="NVRAM/img/teksope_splash.jpg" height="400" /><br>
 the TekScope application splash screen
 
-I also created a bracket for installing 2.5" SSDs and HDDs: <3D%20printable%20SSD%20holder>
+I also created a bracket for installing 2.5" SSDs and HDDs: [LINK](3D%20printable%20SSD%20holder)
+
 <img src="3D%20printable%20SSD%20holder/IMG_20220131_095855807.jpg" height="400" /><br>
