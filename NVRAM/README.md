@@ -69,7 +69,7 @@ female IDC connector on a IDC-serial adapter:
 
 <img src="img/pinout_serial.jpg" height="300" />
 
-|PIN female DB9 (serial)|signal|
+|PIN male DB9 (serial)|signal|
 | -- | -- |
 |1|DCD|
 |2|RX|
