@@ -52,7 +52,7 @@ female IDC connector on a IDC-serial adapter:
 <img src="img/IDC_female.jpg" height="300" /><br>
 
 
-| 10 pin IDC (TDS7000/adapter)|signal|description |
+| 10 pin IDC (TDS7000/adapter) | signal | description |
 |--|--|--|
 |1|DCD|Data Carrier Detect|
 |2|DSR|Data Set Ready|
@@ -65,11 +65,13 @@ female IDC connector on a IDC-serial adapter:
 |9|GND|System Ground|
 |10|not connected|---|
 
-#### The pinout of a standard male serial port (the type you find on a PC) is as follows
+#### The pinout of a standard maserial port (the type you find on a PC) is as follows
+
+*Please be make sure that you have the pinout for the correct gender. The female socket has an inverted pinout.*
 
 <img src="img/pinout_serial.jpg" height="300" />
 
-|PIN male DB9 (serial)|signal|
+| PIN DB9 male (serial)| signal |
 | -- | -- |
 |1|DCD|
 |2|RX|
