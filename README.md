@@ -4,7 +4,7 @@
 
 There's still a lot to do and I will be adding bits and pieces from time to time when I find a minute or two. 
 
-## You are very welcome to contribute by either creating pull or feature requests or simpy sending me messages.  
+## You are very welcome to contribute by either creating pull or feature requests or, starting discussions or simpy sending me messages.  
 
 ## Replacing the Backup Battery and restoring NVRAM Settings
 
@@ -14,3 +14,6 @@ I've compiled a tutorial on how to do that here: [Replacing the Backup Battery a
 
 <img src="NVRAM/img/teksope_splash.jpg" height="400" /><br>
 the TekScope application splash screen
+
+I also created a bracket for installing 2.5" SSDs and HDDs: [3D printable SSD holder](3D printable SSD holder/)
+<img src="3D printable SSD holder/IMG_20220131_095855807.jpg" height="400" /><br>
