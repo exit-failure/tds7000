@@ -65,7 +65,7 @@ female IDC connector on a IDC-serial adapter:
 |9|GND|System Ground|
 |10|not connected|---|
 
-#### The pinout of a standard female serial port (the type you find on a PC) is as follows
+#### The pinout of a standard male serial port (the type you find on a PC) is as follows
 
 <img src="img/pinout_serial.jpg" height="300" />
 
